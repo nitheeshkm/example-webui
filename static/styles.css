@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+table {
+    /* width: 80%; */
+    margin: 0 auto;
+    border-collapse: collapse;
+    /* text-align: center; */
+} 
+
+/* table, th, td {
+    border: 1px solid #999;
+} */
+
+/* th, td {
+    padding: 10px;
+} */
+
+/* th {
+    background-color: #333;
+    color: #fff;
+} */
+
+
+/* #ipList {
+    width: 500px; 
+}  */
+
+
+/*Use !important to override Bootstrap styles */
+.table-warning {
+    background-color: #F8C471;  
+}
+
+.table-danger {
+    background-color: #EC7063; 
+}
+
+.table-normal {
+    background-color: #FFFFFF;
+}
+
+.table-success {
+    background-color: #7DCEA0;
+}
+
+.spinner-border {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: text-bottom;
+    border: 0.25em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    -webkit-animation: spinner-border 0.75s linear infinite;
+    animation: spinner-border 0.75s linear infinite;
+}
+
+@-webkit-keyframes spinner-border {
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes spinner-border {
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+/* Center the Save button */
+#ipList .btn-primary {
+    display: block;
+    margin: 0 auto;
+}
+
+#ipList {
+    margin-left: -22px; /* Adjust this value as needed */
+}
+
+#saveAllButton {
+    /* display: block; */
+    /* vertical-align: super; */
+    margin-left: -14px;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
